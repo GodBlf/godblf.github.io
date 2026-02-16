@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Font Config"
+  short_description: "Edit global typography and font loading"
+  default_prompt: "Use $firefly-font-config to update src/config/fontConfig.ts for typography and font loading settings."

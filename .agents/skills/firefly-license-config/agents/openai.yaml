@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly License Config"
+  short_description: "Edit per-post license policy settings"
+  default_prompt: "Use $firefly-license-config to update src/config/licenseConfig.ts for article license settings."

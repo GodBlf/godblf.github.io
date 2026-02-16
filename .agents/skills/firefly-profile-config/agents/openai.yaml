@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Profile Config"
+  short_description: "Edit profile card and social links safely"
+  default_prompt: "Use $firefly-profile-config to update src/config/profileConfig.ts for avatar, bio, and social links."

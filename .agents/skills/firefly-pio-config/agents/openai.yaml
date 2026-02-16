@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Pio Config"
+  short_description: "Edit live mascot model and interactions"
+  default_prompt: "Use $firefly-pio-config to update src/config/pioConfig.ts for Spine or Live2D model behavior."

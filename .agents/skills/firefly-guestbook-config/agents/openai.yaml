@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Guestbook Config"
+  short_description: "Edit guestbook page switch and content"
+  default_prompt: "Use $firefly-guestbook-config to update guestbook settings in src/config/siteConfig.ts and content in src/content/spec/guestbook.md."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Site Config"
+  short_description: "Edit Firefly site core settings safely"
+  default_prompt: "Use $firefly-site-config to update src/config/siteConfig.ts for site identity, feature toggles, layout, and pagination."

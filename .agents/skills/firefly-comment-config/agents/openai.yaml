@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Comment Config"
+  short_description: "Switch and tune comment providers safely"
+  default_prompt: "Use $firefly-comment-config to update src/config/commentConfig.ts and switch or tune the comment provider."

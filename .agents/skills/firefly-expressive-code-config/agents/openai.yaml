@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Expressive Code Config"
+  short_description: "Edit code highlight theme pair safely"
+  default_prompt: "Use $firefly-expressive-code-config to update src/config/expressiveCodeConfig.ts for dark/light code themes."

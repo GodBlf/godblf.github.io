@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Ad Config"
+  short_description: "Edit sidebar ad cards and placements"
+  default_prompt: "Use $firefly-ad-config to update src/config/adConfig.ts for sidebar promotions and cards."

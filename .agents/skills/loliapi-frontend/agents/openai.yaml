@@ -1,0 +1,4 @@
+interface:
+  display_name: "LoliAPI Frontend"
+  short_description: "面向前端的 LoliAPI 随机图片头像背景集成实现技能"
+  default_prompt: "Use $loliapi-frontend to generate framework-agnostic frontend integration code for the required LoliAPI image endpoint, including loading and error handling."

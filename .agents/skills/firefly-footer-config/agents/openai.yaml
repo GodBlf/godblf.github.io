@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Footer Config"
+  short_description: "Edit footer toggle and custom html safely"
+  default_prompt: "Use $firefly-footer-config to update src/config/footerConfig.ts and src/config/FooterConfig.html for footer injection."

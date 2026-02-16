@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Post Writing"
+  short_description: "Place markdown post into correct location"
+  default_prompt: "Use $firefly-post-writing to place a prepared Markdown post into src/content/posts with valid frontmatter and proper file organization."

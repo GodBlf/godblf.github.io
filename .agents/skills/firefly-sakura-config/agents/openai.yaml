@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Sakura Config"
+  short_description: "Edit sakura visual effect behavior safely"
+  default_prompt: "Use $firefly-sakura-config to update src/config/sakuraConfig.ts for sakura effect settings."

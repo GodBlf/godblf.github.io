@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Announcement Config"
+  short_description: "Edit site top announcement banner safely"
+  default_prompt: "Use $firefly-announcement-config to update src/config/announcementConfig.ts for announcement copy and link behavior."

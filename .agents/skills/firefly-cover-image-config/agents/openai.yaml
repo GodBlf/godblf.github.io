@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Cover Image Config"
+  short_description: "Edit random cover image source lists"
+  default_prompt: "Use $firefly-cover-image-config to update src/config/coverImageConfig.ts for random post covers."

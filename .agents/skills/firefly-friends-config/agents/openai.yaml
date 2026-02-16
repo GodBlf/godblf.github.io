@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Friends Config"
+  short_description: "Edit friend links data and page columns"
+  default_prompt: "Use $firefly-friends-config to update src/config/friendsConfig.ts for friend links and page columns."

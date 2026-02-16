@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Sponsor Config"
+  short_description: "Edit sponsor methods and donor lists"
+  default_prompt: "Use $firefly-sponsor-config to update src/config/sponsorConfig.ts for sponsor methods and donor list."

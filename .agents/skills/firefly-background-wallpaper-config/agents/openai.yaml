@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Background Wallpaper Config"
+  short_description: "Edit wallpaper mode and banner behavior"
+  default_prompt: "Use $firefly-background-wallpaper-config to update src/config/backgroundWallpaper.ts for wallpaper mode, sources, and banner behavior."

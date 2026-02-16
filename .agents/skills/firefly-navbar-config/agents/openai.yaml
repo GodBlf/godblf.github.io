@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Navbar Config"
+  short_description: "Edit navbar links and menu behavior"
+  default_prompt: "Use $firefly-navbar-config to update src/config/navBarConfig.ts for links and menu behavior."

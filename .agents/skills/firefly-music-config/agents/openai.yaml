@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Music Config"
+  short_description: "Edit music player source and behavior"
+  default_prompt: "Use $firefly-music-config to update src/config/musicConfig.ts for music source and player behavior."

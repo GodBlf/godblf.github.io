@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Bangumi Config"
+  short_description: "Edit bangumi id and page visibility"
+  default_prompt: "Use $firefly-bangumi-config to update bangumi settings in src/config/siteConfig.ts and related nav behavior."

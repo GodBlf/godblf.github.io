@@ -1,0 +1,4 @@
+interface:
+  display_name: "Firefly Sidebar Config"
+  short_description: "Edit sidebar widget order and visibility"
+  default_prompt: "Use $firefly-sidebar-config to update src/config/sidebarConfig.ts for widget order and placement."
