@@ -43,6 +43,7 @@ const playerConfigStr = JSON.stringify({
 	volume: config.volume ?? 0.7,
 	playMode: config.playMode ?? "list",
 	showLyrics: config.showLyrics ?? true,
+	autoplay: config.autoplay ?? false,
 	i18n: {
 		noPlaying: i18n(I18nKey.musicNoPlaying),
 		lyrics: i18n(I18nKey.musicLyrics),
@@ -276,7 +277,8 @@ const widgetId =
         lyrics: [], // Parsed lyrics: {time: seconds, text: string}
         currentLrcIndex: -1,
         isUserScrolling: false,
-        scrollTimeout: null
+        scrollTimeout: null,
+        pendingAutoplayRetry: false
     };
 
     // Initialize state from config
@@ -296,6 +298,26 @@ const widgetId =
         } else {
             ui.loading.classList.add('opacity-0', 'pointer-events-none');
         }
+    }
+
+    function scheduleAutoplayRetry() {
+        if (state.pendingAutoplayRetry) return;
+        state.pendingAutoplayRetry = true;
+
+        const retryPlay = () => {
+            ui.audio.play().then(() => {
+                updatePlayState(true);
+            }).catch((err) => {
+                console.warn("Autoplay retry failed", err);
+            }).finally(() => {
+                state.pendingAutoplayRetry = false;
+                window.removeEventListener('pointerdown', retryPlay);
+                window.removeEventListener('keydown', retryPlay);
+            });
+        };
+
+        window.addEventListener('pointerdown', retryPlay, { once: true });
+        window.addEventListener('keydown', retryPlay, { once: true });
     }
 
     function formatTime(seconds) {
@@ -416,7 +438,7 @@ const widgetId =
                     startIndex = Math.floor(Math.random() * state.playlist.length);
                 }
                 
-                loadTrack(startIndex, false);
+                loadTrack(startIndex, config.autoplay === true);
                 initVolume();
                 updateModeUI(); // Reflect initial mode in UI
             } else {
@@ -553,7 +575,10 @@ const widgetId =
         if (autoPlay) {
             ui.audio.play().then(() => {
                 updatePlayState(true);
-            }).catch(e => console.warn(e));
+            }).catch((e) => {
+                console.warn("Autoplay blocked by browser policy", e);
+                scheduleAutoplayRetry();
+            });
         } else {
             updatePlayState(false);
         }
