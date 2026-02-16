@@ -86,7 +86,7 @@ export const spineModelConfig: SpineModelConfig = {
 // Live2D 看板娘配置
 export const live2dModelConfig: Live2DModelConfig = {
 	// Live2D 看板娘开关
-	enable: false,
+	enable: true,
 	// Live2D模型配置
 	model: {
 		// Live2D模型文件路径
@@ -99,7 +99,7 @@ export const live2dModelConfig: Live2DModelConfig = {
 		// 显示位置 bottom-left，bottom-right，top-left，top-right，注意：在右下角可能会挡住返回顶部按钮
 		corner: "bottom-left",
 		// 距离边缘0px
-		offsetX: 0,
+		offsetX: 1570,
 		// 距离下边缘0px
 		offsetY: 0,
 	},
@@ -107,9 +107,9 @@ export const live2dModelConfig: Live2DModelConfig = {
 	// 尺寸配置
 	size: {
 		// 容器宽度
-		width: 135,
+		width: 135*2.5,
 		// 容器高度
-		height: 165,
+		height: 165*2.5,
 	},
 
 	// 交互配置
