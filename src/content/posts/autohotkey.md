@@ -5,6 +5,7 @@ description: 生产力工具
 tags: ["tips"]
 draft: false
 image: api
+category: 其他
 ---
 
 太棒了！这是一个非常实用的 AutoHotkey 脚本，能极大地提升键盘操作效率。以下是为你准备的博客推文内容，包含了博客文章和推文版本：
