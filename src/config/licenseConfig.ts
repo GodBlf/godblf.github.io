@@ -5,6 +5,6 @@ export const licenseConfig: LicenseConfig = {
 	enable: true,
 
 	// 许可证名称及链接
-	name: "CC BY-NC-SA 4.0",
+	name: "Copyright © All Rights Reserved",
 	url: "https://creativecommons.org/licenses/by-nc-sa/4.0/",
 };
