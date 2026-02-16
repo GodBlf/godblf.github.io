@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "godblf",
 
 	// 站点 URL
-	site_url: "https://firefly.cuteleaf.cn",
+	site_url: "https://godblf.github.io",
 
 	// 站点描述
 	description:

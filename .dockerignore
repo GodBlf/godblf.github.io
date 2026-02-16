@@ -1,0 +1,15 @@
+.git
+.github
+.agents
+.astro
+.idea
+.vercel
+node_modules
+dist
+cache
+package
+Docs-Firefly
+docs
+.env
+.env.*
+*.log

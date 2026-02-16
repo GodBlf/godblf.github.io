@@ -151,6 +151,7 @@
 
 ### 平台托管部署
 - **参考[官方指南](https://docs.astro.build/zh-cn/guides/deploy/)将博客部署至 Vercel, Netlify, GitHub Pages, Cloudflare Pages, EdgeOne Pages 等。**
+- **VPS + Docker 部署可参考仓库内文档：[`deploy/README.zh.md`](deploy/README.zh.md)**（Windows 开发、迁移到自己仓库、Caddy HTTPS、GitHub Actions 自动发布）
 
    框架预设： `Astro`
 

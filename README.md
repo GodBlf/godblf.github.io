@@ -147,6 +147,8 @@ If you have useful features and optimizations, please submit a [Pull Request](ht
 
 ### Platform Hosting Deployment
 - **Refer to the [official guide](https://docs.astro.build/en/guides/deploy/) to deploy your blog to Vercel, Netlify, GitHub Pages, Cloudflare Pages, EdgeOne Pages, etc.**
+- **For VPS + Docker deployment, see [`deploy/README.md`](deploy/README.md)** (Caddy HTTPS + GitHub Actions auto deploy).
+- **Chinese detailed guide (Windows + migrate to your own GitHub): [`deploy/README.zh.md`](deploy/README.zh.md)**.
 
    Framework Preset: `Astro`
 
