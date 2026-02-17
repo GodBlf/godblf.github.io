@@ -10,7 +10,7 @@ export const siteConfig: SiteConfig = {
 	title: "godblf",
 
 	// 站点副标题
-	subtitle: "godblf",
+	subtitle: "blog",
 
 	// 站点 URL
 	site_url: "https://godblf.github.io",
@@ -67,11 +67,11 @@ export const siteConfig: SiteConfig = {
 		// 4. 网络图片: { type: "url", value: "https://example.com/logo.png", alt: "Logo" }
 		logo: {
 			type: "image",
-			value: "assets/images/bitcoinlogo.png",
-			alt: "🍀",
+			value: "assets/images/claude.png",
+			alt: "claude",
 		},
 		// 导航栏标题
-		title: "godblf",
+		title: "GODBLF",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: false,
 		// 导航栏图标和标题是否跟随主题色
