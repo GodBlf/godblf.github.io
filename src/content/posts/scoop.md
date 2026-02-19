@@ -26,6 +26,7 @@ $env:SCOOP_GLOBAL='D:\ScoopGlobal'
 irm get.scoop.sh | iex
 
 # 命令
+```powershell
 search,搜索软件,scoop search python
 install,安装软件,scoop install git
 uninstall,卸载软件,scoop uninstall nodejs
@@ -37,6 +38,6 @@ update,更新软件/库,scoop update *
 cleanup,清除旧版本缓存,scoop cleanup *
 bucket add,添加软件仓库,scoop bucket add extras
 checkup,系统健康检查,scoop checkup
-alias,管理自定义别名,scoop alias add rm uninstall
+alias,管理自定义别名,scoop alias add rm uninstall```
 
 
