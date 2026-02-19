@@ -13,13 +13,15 @@ category: ToolSoftware
 
 # 更改下载位置
 ## 1. 设置用户软件安装路径
+```powershell
 $env:SCOOP='D:\Scoop'
 [Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
-
+```
 ## 2. 设置全局软件安装路径 (需管理员权限运行 PowerShell)
+```powershell
 $env:SCOOP_GLOBAL='D:\ScoopGlobal'
 [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
-
+```
 # 下载
 irm get.scoop.sh | iex
 
