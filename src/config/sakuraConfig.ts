@@ -17,7 +17,7 @@ export const sakuraConfig: SakuraConfig = {
 		// 樱花最大尺寸倍数
 		max: 0.5,
 	},
-
+	//backup
 	// 樱花不透明度
 	opacity: {
 		// 樱花最小不透明度
