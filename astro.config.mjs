@@ -30,6 +30,7 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import mdx from "@astrojs/mdx";
 import rehypeEmailProtection from "./src/plugins/rehype-email-protection.mjs";
+import rehypeExternalLinks from "./src/plugins/rehype-external-links.mjs";
 import rehypeFigure from "./src/plugins/rehype-figure.mjs";
 
 // https://astro.build/config
@@ -156,6 +157,9 @@ export default defineConfig({
 				if (pathname === "/bangumi/" && !siteConfig.pages.bangumi) {
 					return false;
 				}
+				if (pathname === "/gallery/" && !siteConfig.pages.gallery) {
+					return false;
+				}
 
 				return true;
 			},
@@ -178,6 +182,7 @@ export default defineConfig({
 			rehypeSlug,
 			rehypeMermaid,
 			rehypeFigure,
+			[rehypeExternalLinks, { siteUrl: siteConfig.site_url }],
 			[rehypeEmailProtection, { method: "base64" }], // 邮箱保护插件，支持 'base64' 或 'rot13'
 			[
 				rehypeComponents,
