@@ -22,9 +22,18 @@ $env:SCOOP='D:\Scoop'
 $env:SCOOP_GLOBAL='D:\ScoopGlobal'
 [Environment]::SetEnvironmentVariable('SCOOP_GLOBAL', $env:SCOOP_GLOBAL, 'Machine')
 ```
-# 下载
-irm get.scoop.sh | iex
 
+# 下载
+## 1. 允许系统运行本地脚本 (需管理员启动powershell)
+```shell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+## 2. 命令下载
+```shell
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression 
+#或者简写 
+irm get.scoop.sh | iex
+```
 # 命令
 ```powershell
 search,搜索软件,scoop search python
