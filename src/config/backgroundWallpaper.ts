@@ -77,9 +77,8 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 			titleSize: "3.8rem",
 			// 主页横幅副标题
 			subtitle: [
-				"Math",
-				"Optimism",
-				"Economic",
+				"Math:Logic,AxiomSetTheory,GraphTheory...",
+				"Optimism,Economic,Physics,",
 				"Fortune Doesn't Favor Fools",
 			],
 			// 主页横幅副标题字体大小
