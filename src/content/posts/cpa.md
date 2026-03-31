@@ -32,7 +32,7 @@ GPT 账号池的核心原理是**反向代理与聚合**。无论是拥有一定
 ### 2. Free 号池
 适用于零成本/低成本白嫖的场景，依赖批量注册。
 
-- **域名邮箱**：使用自定义域名邮箱（开启 Catch-All 功能）来批量接收注册验证码。如果不知道如何设置域名邮箱，可以参考[域名邮箱教程](https://linux.do/t/topic/1411782)的这篇教程。
+- **域名邮箱**：用cloudflare部署域名邮箱 [temp_mail](https://github.com/dreamhunter2333/cloudflare_temp_email),使用自定义域名邮箱（开启 Catch-All 功能）来批量接收注册验证码。
 - **自动化注册**：借助注册机批量产出 Free 账号。例如开源工具 [codex-register](https://github.com/cnlimiter/codex-register),可以使用docker部署。
 - **导入 CPA**：建议通过"账号管理页面"打包账号的token并导出为cpa格式,最后统一复制粘贴到CPA 的./auth/。
 
