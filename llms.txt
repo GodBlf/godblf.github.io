@@ -1,0 +1,20 @@
+﻿# godblf
+> goblf 的个人博客，记录一些技术文章和日常生活点滴。
+
+## Key Pages
+- [主页](https://godblf.github.io/)
+- [归档](https://godblf.github.io/archive/)
+- [关于我](https://godblf.github.io/about/)
+- [友链](https://godblf.github.io/friends/): 这里是我的朋友们，欢迎互相访问交流
+- [留言](https://godblf.github.io/guestbook/): 欢迎在这里留下你的足迹，分享你的想法和建议
+- [项目](https://godblf.github.io/projects/): 这里展示我开发过的项目
+- [相册](https://godblf.github.io/gallery/): 记录生活中的美好瞬间
+- [书签导航](https://godblf.github.io/booknav/): 收藏一些好用的网站，按分类整理
+- [打赏](https://godblf.github.io/sponsor/): 如果我的内容对你有帮助，欢迎通过以下方式打赏我，你的支持是我持续创作的动力！
+
+## Recent Posts
+- [基于 CLIProxyAPI 构建高可用 GPT 账号池与负载均衡](https://godblf.github.io/posts/cpa/): 反向代理实现token自由
+- [Scoop windows 包管理工具](https://godblf.github.io/posts/scoop/): windows 效率工具
+- [编程方向键,Home,End键映射](https://godblf.github.io/posts/autohotkey/): 生产力工具
+- [Firefly Wiki Link 内部链接示例](https://godblf.github.io/posts/guide/firefly-wiki-link/): 在 Firefly 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
+- [加密文章测试](https://godblf.github.io/posts/encrypted-demo/): 这是一篇密码保护的示例文章，用于演示文章加密功能。
